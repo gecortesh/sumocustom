@@ -1,0 +1,675 @@
+NIVissimSingleTypeParser_LSAKopplungsdefinition.o: \
+ NIVissimSingleTypeParser_LSAKopplungsdefinition.cpp \
+ ../../../../src/config.h /usr/local/gcc-4.8.2/include/c++/4.8.2/iostream \
+ /usr/local/gcc-4.8.2/include/c++/4.8.2/x86_64-unknown-linux-gnu/bits/c++config.h \
+ /usr/local/gcc-4.8.2/include/c++/4.8.2/x86_64-unknown-linux-gnu/bits/os_defines.h \
+ /usr/include/features.h /usr/include/sys/cdefs.h \
+ /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h \
+ /usr/include/gnu/stubs-64.h \
+ /usr/local/gcc-4.8.2/include/c++/4.8.2/x86_64-unknown-linux-gnu/bits/cpu_defines.h \
+ /usr/local/gcc-4.8.2/include/c++/4.8.2/ostream \
+ /usr/local/gcc-4.8.2/include/c++/4.8.2/ios \
+ /usr/local/gcc-4.8.2/include/c++/4.8.2/iosfwd \
+ /usr/local/gcc-4.8.2/include/c++/4.8.2/bits/stringfwd.h \
+ /usr/local/gcc-4.8.2/include/c++/4.8.2/bits/memoryfwd.h \
+ /usr/local/gcc-4.8.2/include/c++/4.8.2/bits/postypes.h \
+ /usr/local/gcc-4.8.2/include/c++/4.8.2/cwchar /usr/include/wchar.h \
+ /usr/include/stdio.h \
+ /usr/local/gcc-4.8.2/lib/gcc/x86_64-unknown-linux-gnu/4.8.2/include/stdarg.h \
+ /usr/include/bits/wchar.h \
+ /usr/local/gcc-4.8.2/lib/gcc/x86_64-unknown-linux-gnu/4.8.2/include/stddef.h \
+ /usr/include/xlocale.h /usr/local/gcc-4.8.2/include/c++/4.8.2/exception \
+ /usr/local/gcc-4.8.2/include/c++/4.8.2/bits/atomic_lockfree_defines.h \
+ /usr/local/gcc-4.8.2/include/c++/4.8.2/bits/char_traits.h \
+ /usr/local/gcc-4.8.2/include/c++/4.8.2/bits/stl_algobase.h \
+ /usr/local/gcc-4.8.2/include/c++/4.8.2/bits/functexcept.h \
+ /usr/local/gcc-4.8.2/include/c++/4.8.2/bits/exception_defines.h \
+ /usr/local/gcc-4.8.2/include/c++/4.8.2/bits/cpp_type_traits.h \
+ /usr/local/gcc-4.8.2/include/c++/4.8.2/ext/type_traits.h \
+ /usr/local/gcc-4.8.2/include/c++/4.8.2/ext/numeric_traits.h \
+ /usr/local/gcc-4.8.2/include/c++/4.8.2/bits/stl_pair.h \
+ /usr/local/gcc-4.8.2/include/c++/4.8.2/bits/move.h \
+ /usr/local/gcc-4.8.2/include/c++/4.8.2/bits/concept_check.h \
+ /usr/local/gcc-4.8.2/include/c++/4.8.2/bits/stl_iterator_base_types.h \
+ /usr/local/gcc-4.8.2/include/c++/4.8.2/bits/stl_iterator_base_funcs.h \
+ /usr/local/gcc-4.8.2/include/c++/4.8.2/debug/debug.h \
+ /usr/local/gcc-4.8.2/include/c++/4.8.2/bits/stl_iterator.h \
+ /usr/local/gcc-4.8.2/include/c++/4.8.2/bits/localefwd.h \
+ /usr/local/gcc-4.8.2/include/c++/4.8.2/x86_64-unknown-linux-gnu/bits/c++locale.h \
+ /usr/local/gcc-4.8.2/include/c++/4.8.2/clocale /usr/include/locale.h \
+ /usr/include/bits/locale.h /usr/local/gcc-4.8.2/include/c++/4.8.2/cctype \
+ /usr/include/ctype.h /usr/include/bits/types.h \
+ /usr/include/bits/typesizes.h /usr/include/endian.h \
+ /usr/include/bits/endian.h /usr/include/bits/byteswap.h \
+ /usr/local/gcc-4.8.2/include/c++/4.8.2/bits/ios_base.h \
+ /usr/local/gcc-4.8.2/include/c++/4.8.2/ext/atomicity.h \
+ /usr/local/gcc-4.8.2/include/c++/4.8.2/x86_64-unknown-linux-gnu/bits/gthr.h \
+ /usr/local/gcc-4.8.2/include/c++/4.8.2/x86_64-unknown-linux-gnu/bits/gthr-default.h \
+ /usr/include/pthread.h /usr/include/sched.h /usr/include/time.h \
+ /usr/include/bits/sched.h /usr/include/bits/time.h \
+ /usr/include/bits/pthreadtypes.h /usr/include/bits/setjmp.h \
+ /usr/local/gcc-4.8.2/include/c++/4.8.2/x86_64-unknown-linux-gnu/bits/atomic_word.h \
+ /usr/local/gcc-4.8.2/include/c++/4.8.2/bits/locale_classes.h \
+ /usr/local/gcc-4.8.2/include/c++/4.8.2/string \
+ /usr/local/gcc-4.8.2/include/c++/4.8.2/bits/allocator.h \
+ /usr/local/gcc-4.8.2/include/c++/4.8.2/x86_64-unknown-linux-gnu/bits/c++allocator.h \
+ /usr/local/gcc-4.8.2/include/c++/4.8.2/ext/new_allocator.h \
+ /usr/local/gcc-4.8.2/include/c++/4.8.2/new \
+ /usr/local/gcc-4.8.2/include/c++/4.8.2/bits/ostream_insert.h \
+ /usr/local/gcc-4.8.2/include/c++/4.8.2/bits/cxxabi_forced.h \
+ /usr/local/gcc-4.8.2/include/c++/4.8.2/bits/stl_function.h \
+ /usr/local/gcc-4.8.2/include/c++/4.8.2/backward/binders.h \
+ /usr/local/gcc-4.8.2/include/c++/4.8.2/bits/range_access.h \
+ /usr/local/gcc-4.8.2/include/c++/4.8.2/bits/basic_string.h \
+ /usr/local/gcc-4.8.2/include/c++/4.8.2/bits/basic_string.tcc \
+ /usr/local/gcc-4.8.2/include/c++/4.8.2/bits/locale_classes.tcc \
+ /usr/local/gcc-4.8.2/include/c++/4.8.2/streambuf \
+ /usr/local/gcc-4.8.2/include/c++/4.8.2/bits/streambuf.tcc \
+ /usr/local/gcc-4.8.2/include/c++/4.8.2/bits/basic_ios.h \
+ /usr/local/gcc-4.8.2/include/c++/4.8.2/bits/locale_facets.h \
+ /usr/local/gcc-4.8.2/include/c++/4.8.2/cwctype /usr/include/wctype.h \
+ /usr/local/gcc-4.8.2/include/c++/4.8.2/x86_64-unknown-linux-gnu/bits/ctype_base.h \
+ /usr/local/gcc-4.8.2/include/c++/4.8.2/bits/streambuf_iterator.h \
+ /usr/local/gcc-4.8.2/include/c++/4.8.2/x86_64-unknown-linux-gnu/bits/ctype_inline.h \
+ /usr/local/gcc-4.8.2/include/c++/4.8.2/bits/locale_facets.tcc \
+ /usr/local/gcc-4.8.2/include/c++/4.8.2/bits/basic_ios.tcc \
+ /usr/local/gcc-4.8.2/include/c++/4.8.2/bits/ostream.tcc \
+ /usr/local/gcc-4.8.2/include/c++/4.8.2/istream \
+ /usr/local/gcc-4.8.2/include/c++/4.8.2/bits/istream.tcc \
+ ../../../../src/utils/common/TplConvert.h \
+ /usr/local/gcc-4.8.2/include/c++/4.8.2/cmath /usr/include/math.h \
+ /usr/include/bits/huge_val.h /usr/include/bits/huge_valf.h \
+ /usr/include/bits/huge_vall.h /usr/include/bits/inf.h \
+ /usr/include/bits/nan.h /usr/include/bits/mathdef.h \
+ /usr/include/bits/mathcalls.h /usr/include/bits/mathinline.h \
+ /usr/local/gcc-4.8.2/include/c++/4.8.2/limits \
+ /usr/local/gcc-4.8.2/include/c++/4.8.2/algorithm \
+ /usr/local/gcc-4.8.2/include/c++/4.8.2/utility \
+ /usr/local/gcc-4.8.2/include/c++/4.8.2/bits/stl_relops.h \
+ /usr/local/gcc-4.8.2/include/c++/4.8.2/bits/stl_algo.h \
+ /usr/local/gcc-4.8.2/include/c++/4.8.2/cstdlib /usr/include/stdlib.h \
+ /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h \
+ /usr/include/sys/types.h /usr/include/sys/select.h \
+ /usr/include/bits/select.h /usr/include/bits/sigset.h \
+ /usr/include/sys/sysmacros.h /usr/include/alloca.h \
+ /usr/local/gcc-4.8.2/include/c++/4.8.2/bits/algorithmfwd.h \
+ /usr/local/gcc-4.8.2/include/c++/4.8.2/bits/stl_heap.h \
+ /usr/local/gcc-4.8.2/include/c++/4.8.2/bits/stl_tempbuf.h \
+ /usr/local/gcc-4.8.2/include/c++/4.8.2/bits/stl_construct.h \
+ /usr/local/gcc-4.8.2/include/c++/4.8.2/ext/alloc_traits.h \
+ ../../../../src/utils/common/UtilExceptions.h \
+ /usr/local/gcc-4.8.2/include/c++/4.8.2/stdexcept \
+ ../../../../src/utils/common/StdDefs.h \
+ ../../../../src/utils/xml/SUMOXMLDefinitions.h \
+ ../../../../src/utils/common/StringBijection.h \
+ /usr/local/gcc-4.8.2/include/c++/4.8.2/map \
+ /usr/local/gcc-4.8.2/include/c++/4.8.2/bits/stl_tree.h \
+ /usr/local/gcc-4.8.2/include/c++/4.8.2/bits/stl_map.h \
+ /usr/local/gcc-4.8.2/include/c++/4.8.2/bits/stl_multimap.h \
+ /usr/local/gcc-4.8.2/include/c++/4.8.2/vector \
+ /usr/local/gcc-4.8.2/include/c++/4.8.2/bits/stl_uninitialized.h \
+ /usr/local/gcc-4.8.2/include/c++/4.8.2/bits/stl_vector.h \
+ /usr/local/gcc-4.8.2/include/c++/4.8.2/bits/stl_bvector.h \
+ /usr/local/gcc-4.8.2/include/c++/4.8.2/bits/vector.tcc \
+ ../NIImporter_Vissim.h ../../../../src/utils/common/RGBColor.h \
+ ../../../../src/utils/geom/Position.h \
+ ../tempstructs/NIVissimExtendedEdgePoint.h ../NIVissimElements.h \
+ ../../../../src/utils/xml/SUMOSAXHandler.h \
+ ../../../../src/utils/xml/GenericSAXHandler.h \
+ /usr/local/gcc-4.8.2/include/c++/4.8.2/stack \
+ /usr/local/gcc-4.8.2/include/c++/4.8.2/deque \
+ /usr/local/gcc-4.8.2/include/c++/4.8.2/bits/stl_deque.h \
+ /usr/local/gcc-4.8.2/include/c++/4.8.2/bits/deque.tcc \
+ /usr/local/gcc-4.8.2/include/c++/4.8.2/bits/stl_stack.h \
+ /usr/local/gcc-4.8.2/include/c++/4.8.2/sstream \
+ /usr/local/gcc-4.8.2/include/c++/4.8.2/bits/sstream.tcc \
+ /home/gcorte2s/include/xercesc/sax2/Attributes.hpp \
+ /home/gcorte2s/include/xercesc/util/XercesDefs.hpp \
+ /home/gcorte2s/include/xercesc/util/Xerces_autoconf_config.hpp \
+ /usr/include/inttypes.h \
+ /usr/local/gcc-4.8.2/lib/gcc/x86_64-unknown-linux-gnu/4.8.2/include/stdint.h \
+ /usr/include/stdint.h \
+ /home/gcorte2s/include/xercesc/util/XercesVersion.hpp \
+ /home/gcorte2s/include/xercesc/sax2/DefaultHandler.hpp \
+ /home/gcorte2s/include/xercesc/sax2/ContentHandler.hpp \
+ /home/gcorte2s/include/xercesc/sax2/LexicalHandler.hpp \
+ /home/gcorte2s/include/xercesc/sax2/DeclHandler.hpp \
+ /home/gcorte2s/include/xercesc/sax/DTDHandler.hpp \
+ /home/gcorte2s/include/xercesc/sax/EntityResolver.hpp \
+ /home/gcorte2s/include/xercesc/sax/ErrorHandler.hpp \
+ /home/gcorte2s/include/xercesc/sax/SAXParseException.hpp \
+ /home/gcorte2s/include/xercesc/sax/SAXException.hpp \
+ /home/gcorte2s/include/xercesc/util/XMLString.hpp \
+ /home/gcorte2s/include/xercesc/util/BaseRefVectorOf.hpp \
+ /home/gcorte2s/include/xercesc/util/ArrayIndexOutOfBoundsException.hpp \
+ /home/gcorte2s/include/xercesc/util/XMLException.hpp \
+ /home/gcorte2s/include/xercesc/util/XMemory.hpp \
+ /home/gcorte2s/include/xercesc/util/XMLExceptMsgs.hpp \
+ /home/gcorte2s/include/xercesc/dom/DOMError.hpp \
+ /home/gcorte2s/include/xercesc/util/XMLUni.hpp \
+ /home/gcorte2s/include/xercesc/framework/XMLErrorReporter.hpp \
+ /home/gcorte2s/include/xercesc/util/XMLEnumerator.hpp \
+ /home/gcorte2s/include/xercesc/util/PlatformUtils.hpp \
+ /home/gcorte2s/include/xercesc/util/PanicHandler.hpp \
+ /home/gcorte2s/include/xercesc/util/XMLFileMgr.hpp \
+ /home/gcorte2s/include/xercesc/util/XMLMutexMgr.hpp \
+ /home/gcorte2s/include/xercesc/framework/MemoryManager.hpp \
+ /home/gcorte2s/include/xercesc/util/BaseRefVectorOf.c \
+ /home/gcorte2s/include/xercesc/framework/XMLBuffer.hpp \
+ /usr/include/string.h /usr/include/assert.h \
+ ../../../../src/utils/xml/SUMOSAXAttributes.h \
+ /usr/local/gcc-4.8.2/include/c++/4.8.2/set \
+ /usr/local/gcc-4.8.2/include/c++/4.8.2/bits/stl_set.h \
+ /usr/local/gcc-4.8.2/include/c++/4.8.2/bits/stl_multiset.h \
+ ../../../../src/utils/common/SUMOTime.h \
+ ../../../../src/utils/common/UtilExceptions.h \
+ ../../../../src/utils/common/ToString.h \
+ /usr/local/gcc-4.8.2/include/c++/4.8.2/iomanip \
+ ../../../../src/utils/common/SUMOVehicleClass.h \
+ ../../../../src/utils/common/Named.h \
+ ../../../../src/utils/common/StdDefs.h \
+ ../../../../src/utils/xml/SUMOXMLDefinitions.h \
+ ../tempstructs/NIVissimEdge.h ../tempstructs/NIVissimConnectionCluster.h \
+ ../../../../src/utils/geom/Boundary.h \
+ ../../../../src/utils/geom/AbstractPoly.h \
+ ../../../../src/utils/geom/Position.h \
+ ../../../../src/utils/geom/GeomHelper.h \
+ ../../../../src/utils/geom/PositionVector.h \
+ ../tempstructs/NIVissimConnection.h \
+ ../tempstructs/NIVissimExtendedEdgePoint.h \
+ ../../../../src/utils/geom/AbstractPoly.h \
+ ../tempstructs/NIVissimAbstractEdge.h \
+ ../../../../src/utils/geom/PositionVector.h \
+ ../tempstructs/NIVissimClosedLanesVector.h \
+ ../tempstructs/NIVissimClosedLaneDef.h \
+ ../tempstructs/NIVissimBoundedClusterObject.h \
+ ../../../../src/netbuild/NBEdge.h \
+ ../../../../src/utils/common/Parameterised.h \
+ ../../../../src/utils/common/VectorHelper.h \
+ ../../../../src/utils/geom/Bresenham.h ../../../../src/netbuild/NBCont.h \
+ ../../../../src/netbuild/NBHelpers.h ../../../../src/netbuild/NBSign.h \
+ ../tempstructs/NIVissimConnection.h \
+ ../tempstructs/NIVissimConflictArea.h \
+ ../../../../src/netbuild/NBEdgeCont.h ../../../../src/netbuild/NBNode.h \
+ ../../../../src/netbuild/NBEdge.h \
+ ../../../../src/netbuild/NBConnection.h \
+ ../../../../src/netbuild/NBConnectionDefs.h \
+ ../../../../src/netbuild/NBContHelper.h \
+ /usr/local/gcc-4.8.2/include/c++/4.8.2/cassert \
+ ../../../../src/netbuild/NBNode.h \
+ ../../../../src/utils/common/StringTokenizer.h \
+ /usr/local/gcc-4.8.2/include/c++/4.8.2/list \
+ /usr/local/gcc-4.8.2/include/c++/4.8.2/bits/stl_list.h \
+ /usr/local/gcc-4.8.2/include/c++/4.8.2/bits/list.tcc \
+ ../tempstructs/NIVissimSource.h \
+ NIVissimSingleTypeParser_LSAKopplungsdefinition.h
+
+../../../../src/config.h:
+
+/usr/local/gcc-4.8.2/include/c++/4.8.2/iostream:
+
+/usr/local/gcc-4.8.2/include/c++/4.8.2/x86_64-unknown-linux-gnu/bits/c++config.h:
+
+/usr/local/gcc-4.8.2/include/c++/4.8.2/x86_64-unknown-linux-gnu/bits/os_defines.h:
+
+/usr/include/features.h:
+
+/usr/include/sys/cdefs.h:
+
+/usr/include/bits/wordsize.h:
+
+/usr/include/gnu/stubs.h:
+
+/usr/include/gnu/stubs-64.h:
+
+/usr/local/gcc-4.8.2/include/c++/4.8.2/x86_64-unknown-linux-gnu/bits/cpu_defines.h:
+
+/usr/local/gcc-4.8.2/include/c++/4.8.2/ostream:
+
+/usr/local/gcc-4.8.2/include/c++/4.8.2/ios:
+
+/usr/local/gcc-4.8.2/include/c++/4.8.2/iosfwd:
+
+/usr/local/gcc-4.8.2/include/c++/4.8.2/bits/stringfwd.h:
+
+/usr/local/gcc-4.8.2/include/c++/4.8.2/bits/memoryfwd.h:
+
+/usr/local/gcc-4.8.2/include/c++/4.8.2/bits/postypes.h:
+
+/usr/local/gcc-4.8.2/include/c++/4.8.2/cwchar:
+
+/usr/include/wchar.h:
+
+/usr/include/stdio.h:
+
+/usr/local/gcc-4.8.2/lib/gcc/x86_64-unknown-linux-gnu/4.8.2/include/stdarg.h:
+
+/usr/include/bits/wchar.h:
+
+/usr/local/gcc-4.8.2/lib/gcc/x86_64-unknown-linux-gnu/4.8.2/include/stddef.h:
+
+/usr/include/xlocale.h:
+
+/usr/local/gcc-4.8.2/include/c++/4.8.2/exception:
+
+/usr/local/gcc-4.8.2/include/c++/4.8.2/bits/atomic_lockfree_defines.h:
+
+/usr/local/gcc-4.8.2/include/c++/4.8.2/bits/char_traits.h:
+
+/usr/local/gcc-4.8.2/include/c++/4.8.2/bits/stl_algobase.h:
+
+/usr/local/gcc-4.8.2/include/c++/4.8.2/bits/functexcept.h:
+
+/usr/local/gcc-4.8.2/include/c++/4.8.2/bits/exception_defines.h:
+
+/usr/local/gcc-4.8.2/include/c++/4.8.2/bits/cpp_type_traits.h:
+
+/usr/local/gcc-4.8.2/include/c++/4.8.2/ext/type_traits.h:
+
+/usr/local/gcc-4.8.2/include/c++/4.8.2/ext/numeric_traits.h:
+
+/usr/local/gcc-4.8.2/include/c++/4.8.2/bits/stl_pair.h:
+
+/usr/local/gcc-4.8.2/include/c++/4.8.2/bits/move.h:
+
+/usr/local/gcc-4.8.2/include/c++/4.8.2/bits/concept_check.h:
+
+/usr/local/gcc-4.8.2/include/c++/4.8.2/bits/stl_iterator_base_types.h:
+
+/usr/local/gcc-4.8.2/include/c++/4.8.2/bits/stl_iterator_base_funcs.h:
+
+/usr/local/gcc-4.8.2/include/c++/4.8.2/debug/debug.h:
+
+/usr/local/gcc-4.8.2/include/c++/4.8.2/bits/stl_iterator.h:
+
+/usr/local/gcc-4.8.2/include/c++/4.8.2/bits/localefwd.h:
+
+/usr/local/gcc-4.8.2/include/c++/4.8.2/x86_64-unknown-linux-gnu/bits/c++locale.h:
+
+/usr/local/gcc-4.8.2/include/c++/4.8.2/clocale:
+
+/usr/include/locale.h:
+
+/usr/include/bits/locale.h:
+
+/usr/local/gcc-4.8.2/include/c++/4.8.2/cctype:
+
+/usr/include/ctype.h:
+
+/usr/include/bits/types.h:
+
+/usr/include/bits/typesizes.h:
+
+/usr/include/endian.h:
+
+/usr/include/bits/endian.h:
+
+/usr/include/bits/byteswap.h:
+
+/usr/local/gcc-4.8.2/include/c++/4.8.2/bits/ios_base.h:
+
+/usr/local/gcc-4.8.2/include/c++/4.8.2/ext/atomicity.h:
+
+/usr/local/gcc-4.8.2/include/c++/4.8.2/x86_64-unknown-linux-gnu/bits/gthr.h:
+
+/usr/local/gcc-4.8.2/include/c++/4.8.2/x86_64-unknown-linux-gnu/bits/gthr-default.h:
+
+/usr/include/pthread.h:
+
+/usr/include/sched.h:
+
+/usr/include/time.h:
+
+/usr/include/bits/sched.h:
+
+/usr/include/bits/time.h:
+
+/usr/include/bits/pthreadtypes.h:
+
+/usr/include/bits/setjmp.h:
+
+/usr/local/gcc-4.8.2/include/c++/4.8.2/x86_64-unknown-linux-gnu/bits/atomic_word.h:
+
+/usr/local/gcc-4.8.2/include/c++/4.8.2/bits/locale_classes.h:
+
+/usr/local/gcc-4.8.2/include/c++/4.8.2/string:
+
+/usr/local/gcc-4.8.2/include/c++/4.8.2/bits/allocator.h:
+
+/usr/local/gcc-4.8.2/include/c++/4.8.2/x86_64-unknown-linux-gnu/bits/c++allocator.h:
+
+/usr/local/gcc-4.8.2/include/c++/4.8.2/ext/new_allocator.h:
+
+/usr/local/gcc-4.8.2/include/c++/4.8.2/new:
+
+/usr/local/gcc-4.8.2/include/c++/4.8.2/bits/ostream_insert.h:
+
+/usr/local/gcc-4.8.2/include/c++/4.8.2/bits/cxxabi_forced.h:
+
+/usr/local/gcc-4.8.2/include/c++/4.8.2/bits/stl_function.h:
+
+/usr/local/gcc-4.8.2/include/c++/4.8.2/backward/binders.h:
+
+/usr/local/gcc-4.8.2/include/c++/4.8.2/bits/range_access.h:
+
+/usr/local/gcc-4.8.2/include/c++/4.8.2/bits/basic_string.h:
+
+/usr/local/gcc-4.8.2/include/c++/4.8.2/bits/basic_string.tcc:
+
+/usr/local/gcc-4.8.2/include/c++/4.8.2/bits/locale_classes.tcc:
+
+/usr/local/gcc-4.8.2/include/c++/4.8.2/streambuf:
+
+/usr/local/gcc-4.8.2/include/c++/4.8.2/bits/streambuf.tcc:
+
+/usr/local/gcc-4.8.2/include/c++/4.8.2/bits/basic_ios.h:
+
+/usr/local/gcc-4.8.2/include/c++/4.8.2/bits/locale_facets.h:
+
+/usr/local/gcc-4.8.2/include/c++/4.8.2/cwctype:
+
+/usr/include/wctype.h:
+
+/usr/local/gcc-4.8.2/include/c++/4.8.2/x86_64-unknown-linux-gnu/bits/ctype_base.h:
+
+/usr/local/gcc-4.8.2/include/c++/4.8.2/bits/streambuf_iterator.h:
+
+/usr/local/gcc-4.8.2/include/c++/4.8.2/x86_64-unknown-linux-gnu/bits/ctype_inline.h:
+
+/usr/local/gcc-4.8.2/include/c++/4.8.2/bits/locale_facets.tcc:
+
+/usr/local/gcc-4.8.2/include/c++/4.8.2/bits/basic_ios.tcc:
+
+/usr/local/gcc-4.8.2/include/c++/4.8.2/bits/ostream.tcc:
+
+/usr/local/gcc-4.8.2/include/c++/4.8.2/istream:
+
+/usr/local/gcc-4.8.2/include/c++/4.8.2/bits/istream.tcc:
+
+../../../../src/utils/common/TplConvert.h:
+
+/usr/local/gcc-4.8.2/include/c++/4.8.2/cmath:
+
+/usr/include/math.h:
+
+/usr/include/bits/huge_val.h:
+
+/usr/include/bits/huge_valf.h:
+
+/usr/include/bits/huge_vall.h:
+
+/usr/include/bits/inf.h:
+
+/usr/include/bits/nan.h:
+
+/usr/include/bits/mathdef.h:
+
+/usr/include/bits/mathcalls.h:
+
+/usr/include/bits/mathinline.h:
+
+/usr/local/gcc-4.8.2/include/c++/4.8.2/limits:
+
+/usr/local/gcc-4.8.2/include/c++/4.8.2/algorithm:
+
+/usr/local/gcc-4.8.2/include/c++/4.8.2/utility:
+
+/usr/local/gcc-4.8.2/include/c++/4.8.2/bits/stl_relops.h:
+
+/usr/local/gcc-4.8.2/include/c++/4.8.2/bits/stl_algo.h:
+
+/usr/local/gcc-4.8.2/include/c++/4.8.2/cstdlib:
+
+/usr/include/stdlib.h:
+
+/usr/include/bits/waitflags.h:
+
+/usr/include/bits/waitstatus.h:
+
+/usr/include/sys/types.h:
+
+/usr/include/sys/select.h:
+
+/usr/include/bits/select.h:
+
+/usr/include/bits/sigset.h:
+
+/usr/include/sys/sysmacros.h:
+
+/usr/include/alloca.h:
+
+/usr/local/gcc-4.8.2/include/c++/4.8.2/bits/algorithmfwd.h:
+
+/usr/local/gcc-4.8.2/include/c++/4.8.2/bits/stl_heap.h:
+
+/usr/local/gcc-4.8.2/include/c++/4.8.2/bits/stl_tempbuf.h:
+
+/usr/local/gcc-4.8.2/include/c++/4.8.2/bits/stl_construct.h:
+
+/usr/local/gcc-4.8.2/include/c++/4.8.2/ext/alloc_traits.h:
+
+../../../../src/utils/common/UtilExceptions.h:
+
+/usr/local/gcc-4.8.2/include/c++/4.8.2/stdexcept:
+
+../../../../src/utils/common/StdDefs.h:
+
+../../../../src/utils/xml/SUMOXMLDefinitions.h:
+
+../../../../src/utils/common/StringBijection.h:
+
+/usr/local/gcc-4.8.2/include/c++/4.8.2/map:
+
+/usr/local/gcc-4.8.2/include/c++/4.8.2/bits/stl_tree.h:
+
+/usr/local/gcc-4.8.2/include/c++/4.8.2/bits/stl_map.h:
+
+/usr/local/gcc-4.8.2/include/c++/4.8.2/bits/stl_multimap.h:
+
+/usr/local/gcc-4.8.2/include/c++/4.8.2/vector:
+
+/usr/local/gcc-4.8.2/include/c++/4.8.2/bits/stl_uninitialized.h:
+
+/usr/local/gcc-4.8.2/include/c++/4.8.2/bits/stl_vector.h:
+
+/usr/local/gcc-4.8.2/include/c++/4.8.2/bits/stl_bvector.h:
+
+/usr/local/gcc-4.8.2/include/c++/4.8.2/bits/vector.tcc:
+
+../NIImporter_Vissim.h:
+
+../../../../src/utils/common/RGBColor.h:
+
+../../../../src/utils/geom/Position.h:
+
+../tempstructs/NIVissimExtendedEdgePoint.h:
+
+../NIVissimElements.h:
+
+../../../../src/utils/xml/SUMOSAXHandler.h:
+
+../../../../src/utils/xml/GenericSAXHandler.h:
+
+/usr/local/gcc-4.8.2/include/c++/4.8.2/stack:
+
+/usr/local/gcc-4.8.2/include/c++/4.8.2/deque:
+
+/usr/local/gcc-4.8.2/include/c++/4.8.2/bits/stl_deque.h:
+
+/usr/local/gcc-4.8.2/include/c++/4.8.2/bits/deque.tcc:
+
+/usr/local/gcc-4.8.2/include/c++/4.8.2/bits/stl_stack.h:
+
+/usr/local/gcc-4.8.2/include/c++/4.8.2/sstream:
+
+/usr/local/gcc-4.8.2/include/c++/4.8.2/bits/sstream.tcc:
+
+/home/gcorte2s/include/xercesc/sax2/Attributes.hpp:
+
+/home/gcorte2s/include/xercesc/util/XercesDefs.hpp:
+
+/home/gcorte2s/include/xercesc/util/Xerces_autoconf_config.hpp:
+
+/usr/include/inttypes.h:
+
+/usr/local/gcc-4.8.2/lib/gcc/x86_64-unknown-linux-gnu/4.8.2/include/stdint.h:
+
+/usr/include/stdint.h:
+
+/home/gcorte2s/include/xercesc/util/XercesVersion.hpp:
+
+/home/gcorte2s/include/xercesc/sax2/DefaultHandler.hpp:
+
+/home/gcorte2s/include/xercesc/sax2/ContentHandler.hpp:
+
+/home/gcorte2s/include/xercesc/sax2/LexicalHandler.hpp:
+
+/home/gcorte2s/include/xercesc/sax2/DeclHandler.hpp:
+
+/home/gcorte2s/include/xercesc/sax/DTDHandler.hpp:
+
+/home/gcorte2s/include/xercesc/sax/EntityResolver.hpp:
+
+/home/gcorte2s/include/xercesc/sax/ErrorHandler.hpp:
+
+/home/gcorte2s/include/xercesc/sax/SAXParseException.hpp:
+
+/home/gcorte2s/include/xercesc/sax/SAXException.hpp:
+
+/home/gcorte2s/include/xercesc/util/XMLString.hpp:
+
+/home/gcorte2s/include/xercesc/util/BaseRefVectorOf.hpp:
+
+/home/gcorte2s/include/xercesc/util/ArrayIndexOutOfBoundsException.hpp:
+
+/home/gcorte2s/include/xercesc/util/XMLException.hpp:
+
+/home/gcorte2s/include/xercesc/util/XMemory.hpp:
+
+/home/gcorte2s/include/xercesc/util/XMLExceptMsgs.hpp:
+
+/home/gcorte2s/include/xercesc/dom/DOMError.hpp:
+
+/home/gcorte2s/include/xercesc/util/XMLUni.hpp:
+
+/home/gcorte2s/include/xercesc/framework/XMLErrorReporter.hpp:
+
+/home/gcorte2s/include/xercesc/util/XMLEnumerator.hpp:
+
+/home/gcorte2s/include/xercesc/util/PlatformUtils.hpp:
+
+/home/gcorte2s/include/xercesc/util/PanicHandler.hpp:
+
+/home/gcorte2s/include/xercesc/util/XMLFileMgr.hpp:
+
+/home/gcorte2s/include/xercesc/util/XMLMutexMgr.hpp:
+
+/home/gcorte2s/include/xercesc/framework/MemoryManager.hpp:
+
+/home/gcorte2s/include/xercesc/util/BaseRefVectorOf.c:
+
+/home/gcorte2s/include/xercesc/framework/XMLBuffer.hpp:
+
+/usr/include/string.h:
+
+/usr/include/assert.h:
+
+../../../../src/utils/xml/SUMOSAXAttributes.h:
+
+/usr/local/gcc-4.8.2/include/c++/4.8.2/set:
+
+/usr/local/gcc-4.8.2/include/c++/4.8.2/bits/stl_set.h:
+
+/usr/local/gcc-4.8.2/include/c++/4.8.2/bits/stl_multiset.h:
+
+../../../../src/utils/common/SUMOTime.h:
+
+../../../../src/utils/common/UtilExceptions.h:
+
+../../../../src/utils/common/ToString.h:
+
+/usr/local/gcc-4.8.2/include/c++/4.8.2/iomanip:
+
+../../../../src/utils/common/SUMOVehicleClass.h:
+
+../../../../src/utils/common/Named.h:
+
+../../../../src/utils/common/StdDefs.h:
+
+../../../../src/utils/xml/SUMOXMLDefinitions.h:
+
+../tempstructs/NIVissimEdge.h:
+
+../tempstructs/NIVissimConnectionCluster.h:
+
+../../../../src/utils/geom/Boundary.h:
+
+../../../../src/utils/geom/AbstractPoly.h:
+
+../../../../src/utils/geom/Position.h:
+
+../../../../src/utils/geom/GeomHelper.h:
+
+../../../../src/utils/geom/PositionVector.h:
+
+../tempstructs/NIVissimConnection.h:
+
+../tempstructs/NIVissimExtendedEdgePoint.h:
+
+../../../../src/utils/geom/AbstractPoly.h:
+
+../tempstructs/NIVissimAbstractEdge.h:
+
+../../../../src/utils/geom/PositionVector.h:
+
+../tempstructs/NIVissimClosedLanesVector.h:
+
+../tempstructs/NIVissimClosedLaneDef.h:
+
+../tempstructs/NIVissimBoundedClusterObject.h:
+
+../../../../src/netbuild/NBEdge.h:
+
+../../../../src/utils/common/Parameterised.h:
+
+../../../../src/utils/common/VectorHelper.h:
+
+../../../../src/utils/geom/Bresenham.h:
+
+../../../../src/netbuild/NBCont.h:
+
+../../../../src/netbuild/NBHelpers.h:
+
+../../../../src/netbuild/NBSign.h:
+
+../tempstructs/NIVissimConnection.h:
+
+../tempstructs/NIVissimConflictArea.h:
+
+../../../../src/netbuild/NBEdgeCont.h:
+
+../../../../src/netbuild/NBNode.h:
+
+../../../../src/netbuild/NBEdge.h:
+
+../../../../src/netbuild/NBConnection.h:
+
+../../../../src/netbuild/NBConnectionDefs.h:
+
+../../../../src/netbuild/NBContHelper.h:
+
+/usr/local/gcc-4.8.2/include/c++/4.8.2/cassert:
+
+../../../../src/netbuild/NBNode.h:
+
+../../../../src/utils/common/StringTokenizer.h:
+
+/usr/local/gcc-4.8.2/include/c++/4.8.2/list:
+
+/usr/local/gcc-4.8.2/include/c++/4.8.2/bits/stl_list.h:
+
+/usr/local/gcc-4.8.2/include/c++/4.8.2/bits/list.tcc:
+
+../tempstructs/NIVissimSource.h:
+
+NIVissimSingleTypeParser_LSAKopplungsdefinition.h:

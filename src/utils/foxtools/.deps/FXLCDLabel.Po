@@ -1,0 +1,846 @@
+FXLCDLabel.o: FXLCDLabel.cpp ../../../src/config.h \
+ /home/gcorte2s/include/fox-1.6/fxver.h \
+ /home/gcorte2s/include/fox-1.6/xincs.h /usr/include/stdio.h \
+ /usr/include/features.h /usr/include/sys/cdefs.h \
+ /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h \
+ /usr/include/gnu/stubs-64.h \
+ /usr/local/gcc-4.8.2/lib/gcc/x86_64-unknown-linux-gnu/4.8.2/include/stddef.h \
+ /usr/include/bits/types.h /usr/include/bits/typesizes.h \
+ /usr/include/libio.h /usr/include/_G_config.h /usr/include/wchar.h \
+ /usr/local/gcc-4.8.2/lib/gcc/x86_64-unknown-linux-gnu/4.8.2/include/stdarg.h \
+ /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
+ /usr/include/bits/stdio.h /usr/include/stdlib.h \
+ /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h \
+ /usr/include/endian.h /usr/include/bits/endian.h \
+ /usr/include/bits/byteswap.h /usr/include/xlocale.h \
+ /usr/include/sys/types.h /usr/include/time.h /usr/include/sys/select.h \
+ /usr/include/bits/select.h /usr/include/bits/sigset.h \
+ /usr/include/bits/time.h /usr/include/sys/sysmacros.h \
+ /usr/include/bits/pthreadtypes.h /usr/include/alloca.h \
+ /usr/local/gcc-4.8.2/lib/gcc/x86_64-unknown-linux-gnu/4.8.2/include-fixed/limits.h \
+ /usr/local/gcc-4.8.2/lib/gcc/x86_64-unknown-linux-gnu/4.8.2/include-fixed/syslimits.h \
+ /usr/include/limits.h /usr/include/bits/posix1_lim.h \
+ /usr/include/bits/local_lim.h /usr/include/linux/limits.h \
+ /usr/include/bits/posix2_lim.h /usr/include/bits/xopen_lim.h \
+ /usr/include/math.h /usr/include/bits/huge_val.h \
+ /usr/include/bits/huge_valf.h /usr/include/bits/huge_vall.h \
+ /usr/include/bits/inf.h /usr/include/bits/nan.h \
+ /usr/include/bits/mathdef.h /usr/include/bits/mathcalls.h \
+ /usr/include/bits/mathinline.h \
+ /usr/local/gcc-4.8.2/lib/gcc/x86_64-unknown-linux-gnu/4.8.2/include/float.h \
+ /usr/include/string.h /usr/include/errno.h /usr/include/bits/errno.h \
+ /usr/include/linux/errno.h /usr/include/asm/errno.h \
+ /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
+ /usr/include/signal.h /usr/include/bits/signum.h \
+ /usr/include/bits/siginfo.h /usr/include/bits/sigaction.h \
+ /usr/include/bits/sigcontext.h /usr/include/bits/sigstack.h \
+ /usr/include/sys/ucontext.h /usr/include/bits/sigthread.h \
+ /usr/include/locale.h /usr/include/bits/locale.h /usr/include/fcntl.h \
+ /usr/include/bits/fcntl.h /usr/include/bits/uio.h \
+ /usr/include/bits/stat.h /usr/include/sys/stat.h /usr/include/grp.h \
+ /usr/include/pwd.h /usr/include/sys/ioctl.h /usr/include/bits/ioctls.h \
+ /usr/include/asm/ioctls.h /usr/include/asm-generic/ioctls.h \
+ /usr/include/linux/ioctl.h /usr/include/asm/ioctl.h \
+ /usr/include/asm-generic/ioctl.h /usr/include/bits/ioctl-types.h \
+ /usr/include/sys/ttydefaults.h /usr/include/unistd.h \
+ /usr/include/bits/posix_opt.h /usr/include/bits/environments.h \
+ /usr/include/bits/confname.h /usr/include/getopt.h \
+ /usr/include/sys/time.h /usr/include/X11/X.h /usr/include/X11/Xlib.h \
+ /usr/include/X11/Xfuncproto.h /usr/include/X11/Xosdefs.h \
+ /usr/include/X11/Xcms.h /usr/include/X11/Xutil.h \
+ /usr/include/X11/keysym.h /usr/include/X11/keysymdef.h \
+ /usr/include/X11/Xresource.h /usr/include/X11/Xatom.h \
+ /usr/include/X11/cursorfont.h /home/gcorte2s/include/fox-1.6/fxdefs.h \
+ /home/gcorte2s/include/fox-1.6/fx.h \
+ /home/gcorte2s/include/fox-1.6/fxver.h \
+ /home/gcorte2s/include/fox-1.6/fxdefs.h \
+ /home/gcorte2s/include/fox-1.6/fxascii.h \
+ /home/gcorte2s/include/fox-1.6/fxunicode.h \
+ /home/gcorte2s/include/fox-1.6/FXHash.h \
+ /home/gcorte2s/include/fox-1.6/FXException.h \
+ /home/gcorte2s/include/fox-1.6/FXThread.h \
+ /home/gcorte2s/include/fox-1.6/FXStream.h \
+ /home/gcorte2s/include/fox-1.6/FXIO.h \
+ /home/gcorte2s/include/fox-1.6/FXFile.h \
+ /home/gcorte2s/include/fox-1.6/FXPipe.h \
+ /home/gcorte2s/include/fox-1.6/FXSocket.h \
+ /home/gcorte2s/include/fox-1.6/FXFileStream.h \
+ /home/gcorte2s/include/fox-1.6/FXMemoryStream.h \
+ /home/gcorte2s/include/fox-1.6/FXString.h \
+ /home/gcorte2s/include/fox-1.6/FXSize.h \
+ /home/gcorte2s/include/fox-1.6/FXPoint.h \
+ /home/gcorte2s/include/fox-1.6/FXRectangle.h \
+ /home/gcorte2s/include/fox-1.6/FXObject.h \
+ /home/gcorte2s/include/fox-1.6/FXDelegator.h \
+ /home/gcorte2s/include/fox-1.6/FXDict.h \
+ /home/gcorte2s/include/fox-1.6/FXPath.h \
+ /home/gcorte2s/include/fox-1.6/FXSystem.h \
+ /home/gcorte2s/include/fox-1.6/FXStat.h \
+ /home/gcorte2s/include/fox-1.6/FXDir.h \
+ /home/gcorte2s/include/fox-1.6/FXDate.h \
+ /home/gcorte2s/include/fox-1.6/FXURL.h \
+ /home/gcorte2s/include/fox-1.6/FXStringDict.h \
+ /home/gcorte2s/include/fox-1.6/FXSettings.h \
+ /home/gcorte2s/include/fox-1.6/FXRegistry.h \
+ /home/gcorte2s/include/fox-1.6/FXObjectList.h \
+ /home/gcorte2s/include/fox-1.6/FXAccelTable.h \
+ /home/gcorte2s/include/fox-1.6/FXRecentFiles.h \
+ /home/gcorte2s/include/fox-1.6/FXApp.h \
+ /home/gcorte2s/include/fox-1.6/FXId.h \
+ /home/gcorte2s/include/fox-1.6/FXVisual.h \
+ /home/gcorte2s/include/fox-1.6/FXFont.h \
+ /home/gcorte2s/include/fox-1.6/FXCursor.h \
+ /home/gcorte2s/include/fox-1.6/FXGUISignal.h \
+ /home/gcorte2s/include/fox-1.6/FXCURCursor.h \
+ /home/gcorte2s/include/fox-1.6/FXGIFCursor.h \
+ /home/gcorte2s/include/fox-1.6/FXDrawable.h \
+ /home/gcorte2s/include/fox-1.6/FXBitmap.h \
+ /home/gcorte2s/include/fox-1.6/FXImage.h \
+ /home/gcorte2s/include/fox-1.6/FXIcon.h \
+ /home/gcorte2s/include/fox-1.6/FXGIFImage.h \
+ /home/gcorte2s/include/fox-1.6/FXIFFImage.h \
+ /home/gcorte2s/include/fox-1.6/FXBMPImage.h \
+ /home/gcorte2s/include/fox-1.6/FXICOImage.h \
+ /home/gcorte2s/include/fox-1.6/FXXBMImage.h \
+ /home/gcorte2s/include/fox-1.6/FXXPMImage.h \
+ /home/gcorte2s/include/fox-1.6/FXPCXImage.h \
+ /home/gcorte2s/include/fox-1.6/FXTGAImage.h \
+ /home/gcorte2s/include/fox-1.6/FXRGBImage.h \
+ /home/gcorte2s/include/fox-1.6/FXPPMImage.h \
+ /home/gcorte2s/include/fox-1.6/FXRASImage.h \
+ /home/gcorte2s/include/fox-1.6/FXGIFIcon.h \
+ /home/gcorte2s/include/fox-1.6/FXIFFIcon.h \
+ /home/gcorte2s/include/fox-1.6/FXBMPIcon.h \
+ /home/gcorte2s/include/fox-1.6/FXICOIcon.h \
+ /home/gcorte2s/include/fox-1.6/FXXBMIcon.h \
+ /home/gcorte2s/include/fox-1.6/FXXPMIcon.h \
+ /home/gcorte2s/include/fox-1.6/FXPCXIcon.h \
+ /home/gcorte2s/include/fox-1.6/FXTGAIcon.h \
+ /home/gcorte2s/include/fox-1.6/FXRGBIcon.h \
+ /home/gcorte2s/include/fox-1.6/FXPPMIcon.h \
+ /home/gcorte2s/include/fox-1.6/FXRASIcon.h \
+ /home/gcorte2s/include/fox-1.6/FXRegion.h \
+ /home/gcorte2s/include/fox-1.6/FXDC.h \
+ /home/gcorte2s/include/fox-1.6/FXDCWindow.h \
+ /home/gcorte2s/include/fox-1.6/FXDCPrint.h \
+ /home/gcorte2s/include/fox-1.6/FXIconSource.h \
+ /home/gcorte2s/include/fox-1.6/FXIconDict.h \
+ /home/gcorte2s/include/fox-1.6/FXFileDict.h \
+ /home/gcorte2s/include/fox-1.6/FXWindow.h \
+ /home/gcorte2s/include/fox-1.6/FXFrame.h \
+ /home/gcorte2s/include/fox-1.6/FXSeparator.h \
+ /home/gcorte2s/include/fox-1.6/FXLabel.h \
+ /home/gcorte2s/include/fox-1.6/FX7Segment.h \
+ /home/gcorte2s/include/fox-1.6/FXDial.h \
+ /home/gcorte2s/include/fox-1.6/FXKnob.h \
+ /home/gcorte2s/include/fox-1.6/FXColorBar.h \
+ /home/gcorte2s/include/fox-1.6/FXColorRing.h \
+ /home/gcorte2s/include/fox-1.6/FXColorWell.h \
+ /home/gcorte2s/include/fox-1.6/FXColorWheel.h \
+ /home/gcorte2s/include/fox-1.6/FXTextField.h \
+ /home/gcorte2s/include/fox-1.6/FXButton.h \
+ /home/gcorte2s/include/fox-1.6/FXPicker.h \
+ /home/gcorte2s/include/fox-1.6/FXToggleButton.h \
+ /home/gcorte2s/include/fox-1.6/FXTriStateButton.h \
+ /home/gcorte2s/include/fox-1.6/FXCheckButton.h \
+ /home/gcorte2s/include/fox-1.6/FXRadioButton.h \
+ /home/gcorte2s/include/fox-1.6/FXArrowButton.h \
+ /home/gcorte2s/include/fox-1.6/FXMenuButton.h \
+ /home/gcorte2s/include/fox-1.6/FXComposite.h \
+ /home/gcorte2s/include/fox-1.6/FXPacker.h \
+ /home/gcorte2s/include/fox-1.6/FXHorizontalFrame.h \
+ /home/gcorte2s/include/fox-1.6/FXVerticalFrame.h \
+ /home/gcorte2s/include/fox-1.6/FXSpring.h \
+ /home/gcorte2s/include/fox-1.6/FXMatrix.h \
+ /home/gcorte2s/include/fox-1.6/FXSpinner.h \
+ /home/gcorte2s/include/fox-1.6/FXRealSpinner.h \
+ /home/gcorte2s/include/fox-1.6/FXRootWindow.h \
+ /home/gcorte2s/include/fox-1.6/FXCanvas.h \
+ /home/gcorte2s/include/fox-1.6/FXGroupBox.h \
+ /home/gcorte2s/include/fox-1.6/FXShell.h \
+ /home/gcorte2s/include/fox-1.6/FXToolTip.h \
+ /home/gcorte2s/include/fox-1.6/FXPopup.h \
+ /home/gcorte2s/include/fox-1.6/FXTopWindow.h \
+ /home/gcorte2s/include/fox-1.6/FXDialogBox.h \
+ /home/gcorte2s/include/fox-1.6/FXMainWindow.h \
+ /home/gcorte2s/include/fox-1.6/FXMenuPane.h \
+ /home/gcorte2s/include/fox-1.6/FXScrollPane.h \
+ /home/gcorte2s/include/fox-1.6/FXMenuCaption.h \
+ /home/gcorte2s/include/fox-1.6/FXMenuSeparator.h \
+ /home/gcorte2s/include/fox-1.6/FXMenuTitle.h \
+ /home/gcorte2s/include/fox-1.6/FXMenuCascade.h \
+ /home/gcorte2s/include/fox-1.6/FXMenuCommand.h \
+ /home/gcorte2s/include/fox-1.6/FXMenuCheck.h \
+ /home/gcorte2s/include/fox-1.6/FXMenuRadio.h \
+ /home/gcorte2s/include/fox-1.6/FXMenuBar.h \
+ /home/gcorte2s/include/fox-1.6/FXToolBar.h \
+ /home/gcorte2s/include/fox-1.6/FXDockBar.h \
+ /home/gcorte2s/include/fox-1.6/FXOptionMenu.h \
+ /home/gcorte2s/include/fox-1.6/FXSwitcher.h \
+ /home/gcorte2s/include/fox-1.6/FXTabBar.h \
+ /home/gcorte2s/include/fox-1.6/FXTabBook.h \
+ /home/gcorte2s/include/fox-1.6/FXTabItem.h \
+ /home/gcorte2s/include/fox-1.6/FXScrollBar.h \
+ /home/gcorte2s/include/fox-1.6/FXScrollArea.h \
+ /home/gcorte2s/include/fox-1.6/FXScrollWindow.h \
+ /home/gcorte2s/include/fox-1.6/FXList.h \
+ /home/gcorte2s/include/fox-1.6/FXComboBox.h \
+ /home/gcorte2s/include/fox-1.6/FXListBox.h \
+ /home/gcorte2s/include/fox-1.6/FXTreeList.h \
+ /home/gcorte2s/include/fox-1.6/FXTreeListBox.h \
+ /home/gcorte2s/include/fox-1.6/FXFoldingList.h \
+ /home/gcorte2s/include/fox-1.6/FXBitmapView.h \
+ /home/gcorte2s/include/fox-1.6/FXBitmapFrame.h \
+ /home/gcorte2s/include/fox-1.6/FXImageView.h \
+ /home/gcorte2s/include/fox-1.6/FXImageFrame.h \
+ /home/gcorte2s/include/fox-1.6/FXTable.h \
+ /home/gcorte2s/include/fox-1.6/FXDragCorner.h \
+ /home/gcorte2s/include/fox-1.6/FXStatusBar.h \
+ /home/gcorte2s/include/fox-1.6/FXStatusLine.h \
+ /home/gcorte2s/include/fox-1.6/FXChoiceBox.h \
+ /home/gcorte2s/include/fox-1.6/FXMessageBox.h \
+ /home/gcorte2s/include/fox-1.6/FXDirList.h \
+ /home/gcorte2s/include/fox-1.6/FXSlider.h \
+ /home/gcorte2s/include/fox-1.6/FXRealSlider.h \
+ /home/gcorte2s/include/fox-1.6/FXSplitter.h \
+ /home/gcorte2s/include/fox-1.6/FX4Splitter.h \
+ /home/gcorte2s/include/fox-1.6/FXHeader.h \
+ /home/gcorte2s/include/fox-1.6/FXShutter.h \
+ /home/gcorte2s/include/fox-1.6/FXIconList.h \
+ /home/gcorte2s/include/fox-1.6/FXFileList.h \
+ /home/gcorte2s/include/fox-1.6/FXDirBox.h \
+ /home/gcorte2s/include/fox-1.6/FXDriveBox.h \
+ /home/gcorte2s/include/fox-1.6/FXDirSelector.h \
+ /home/gcorte2s/include/fox-1.6/FXDirDialog.h \
+ /home/gcorte2s/include/fox-1.6/FXFileSelector.h \
+ /home/gcorte2s/include/fox-1.6/FXFileDialog.h \
+ /home/gcorte2s/include/fox-1.6/FXColorSelector.h \
+ /home/gcorte2s/include/fox-1.6/FXColorDialog.h \
+ /home/gcorte2s/include/fox-1.6/FXFontSelector.h \
+ /home/gcorte2s/include/fox-1.6/FXFontDialog.h \
+ /home/gcorte2s/include/fox-1.6/FXUndoList.h \
+ /home/gcorte2s/include/fox-1.6/FXRex.h \
+ /home/gcorte2s/include/fox-1.6/FXText.h \
+ /home/gcorte2s/include/fox-1.6/FXDataTarget.h \
+ /home/gcorte2s/include/fox-1.6/FXProgressBar.h \
+ /home/gcorte2s/include/fox-1.6/FXReplaceDialog.h \
+ /home/gcorte2s/include/fox-1.6/FXRuler.h \
+ /home/gcorte2s/include/fox-1.6/FXRulerView.h \
+ /home/gcorte2s/include/fox-1.6/FXSearchDialog.h \
+ /home/gcorte2s/include/fox-1.6/FXInputDialog.h \
+ /home/gcorte2s/include/fox-1.6/FXProgressDialog.h \
+ /home/gcorte2s/include/fox-1.6/FXWizard.h \
+ /home/gcorte2s/include/fox-1.6/FXMDIButton.h \
+ /home/gcorte2s/include/fox-1.6/FXMDIClient.h \
+ /home/gcorte2s/include/fox-1.6/FXMDIChild.h \
+ /home/gcorte2s/include/fox-1.6/FXDocument.h \
+ /home/gcorte2s/include/fox-1.6/FXDockSite.h \
+ /home/gcorte2s/include/fox-1.6/FXDockHandler.h \
+ /home/gcorte2s/include/fox-1.6/FXDockTitle.h \
+ /home/gcorte2s/include/fox-1.6/FXToolBarGrip.h \
+ /home/gcorte2s/include/fox-1.6/FXToolBarShell.h \
+ /home/gcorte2s/include/fox-1.6/FXToolBarTab.h \
+ /home/gcorte2s/include/fox-1.6/FXPrintDialog.h \
+ /home/gcorte2s/include/fox-1.6/FXDebugTarget.h \
+ /home/gcorte2s/include/fox-1.6/FXSplashWindow.h FXSevenSegment.h \
+ FXLCDLabel.h FXBaseObject.h /home/gcorte2s/include/fox-1.6/FXHash.h
+
+../../../src/config.h:
+
+/home/gcorte2s/include/fox-1.6/fxver.h:
+
+/home/gcorte2s/include/fox-1.6/xincs.h:
+
+/usr/include/stdio.h:
+
+/usr/include/features.h:
+
+/usr/include/sys/cdefs.h:
+
+/usr/include/bits/wordsize.h:
+
+/usr/include/gnu/stubs.h:
+
+/usr/include/gnu/stubs-64.h:
+
+/usr/local/gcc-4.8.2/lib/gcc/x86_64-unknown-linux-gnu/4.8.2/include/stddef.h:
+
+/usr/include/bits/types.h:
+
+/usr/include/bits/typesizes.h:
+
+/usr/include/libio.h:
+
+/usr/include/_G_config.h:
+
+/usr/include/wchar.h:
+
+/usr/local/gcc-4.8.2/lib/gcc/x86_64-unknown-linux-gnu/4.8.2/include/stdarg.h:
+
+/usr/include/bits/stdio_lim.h:
+
+/usr/include/bits/sys_errlist.h:
+
+/usr/include/bits/stdio.h:
+
+/usr/include/stdlib.h:
+
+/usr/include/bits/waitflags.h:
+
+/usr/include/bits/waitstatus.h:
+
+/usr/include/endian.h:
+
+/usr/include/bits/endian.h:
+
+/usr/include/bits/byteswap.h:
+
+/usr/include/xlocale.h:
+
+/usr/include/sys/types.h:
+
+/usr/include/time.h:
+
+/usr/include/sys/select.h:
+
+/usr/include/bits/select.h:
+
+/usr/include/bits/sigset.h:
+
+/usr/include/bits/time.h:
+
+/usr/include/sys/sysmacros.h:
+
+/usr/include/bits/pthreadtypes.h:
+
+/usr/include/alloca.h:
+
+/usr/local/gcc-4.8.2/lib/gcc/x86_64-unknown-linux-gnu/4.8.2/include-fixed/limits.h:
+
+/usr/local/gcc-4.8.2/lib/gcc/x86_64-unknown-linux-gnu/4.8.2/include-fixed/syslimits.h:
+
+/usr/include/limits.h:
+
+/usr/include/bits/posix1_lim.h:
+
+/usr/include/bits/local_lim.h:
+
+/usr/include/linux/limits.h:
+
+/usr/include/bits/posix2_lim.h:
+
+/usr/include/bits/xopen_lim.h:
+
+/usr/include/math.h:
+
+/usr/include/bits/huge_val.h:
+
+/usr/include/bits/huge_valf.h:
+
+/usr/include/bits/huge_vall.h:
+
+/usr/include/bits/inf.h:
+
+/usr/include/bits/nan.h:
+
+/usr/include/bits/mathdef.h:
+
+/usr/include/bits/mathcalls.h:
+
+/usr/include/bits/mathinline.h:
+
+/usr/local/gcc-4.8.2/lib/gcc/x86_64-unknown-linux-gnu/4.8.2/include/float.h:
+
+/usr/include/string.h:
+
+/usr/include/errno.h:
+
+/usr/include/bits/errno.h:
+
+/usr/include/linux/errno.h:
+
+/usr/include/asm/errno.h:
+
+/usr/include/asm-generic/errno.h:
+
+/usr/include/asm-generic/errno-base.h:
+
+/usr/include/signal.h:
+
+/usr/include/bits/signum.h:
+
+/usr/include/bits/siginfo.h:
+
+/usr/include/bits/sigaction.h:
+
+/usr/include/bits/sigcontext.h:
+
+/usr/include/bits/sigstack.h:
+
+/usr/include/sys/ucontext.h:
+
+/usr/include/bits/sigthread.h:
+
+/usr/include/locale.h:
+
+/usr/include/bits/locale.h:
+
+/usr/include/fcntl.h:
+
+/usr/include/bits/fcntl.h:
+
+/usr/include/bits/uio.h:
+
+/usr/include/bits/stat.h:
+
+/usr/include/sys/stat.h:
+
+/usr/include/grp.h:
+
+/usr/include/pwd.h:
+
+/usr/include/sys/ioctl.h:
+
+/usr/include/bits/ioctls.h:
+
+/usr/include/asm/ioctls.h:
+
+/usr/include/asm-generic/ioctls.h:
+
+/usr/include/linux/ioctl.h:
+
+/usr/include/asm/ioctl.h:
+
+/usr/include/asm-generic/ioctl.h:
+
+/usr/include/bits/ioctl-types.h:
+
+/usr/include/sys/ttydefaults.h:
+
+/usr/include/unistd.h:
+
+/usr/include/bits/posix_opt.h:
+
+/usr/include/bits/environments.h:
+
+/usr/include/bits/confname.h:
+
+/usr/include/getopt.h:
+
+/usr/include/sys/time.h:
+
+/usr/include/X11/X.h:
+
+/usr/include/X11/Xlib.h:
+
+/usr/include/X11/Xfuncproto.h:
+
+/usr/include/X11/Xosdefs.h:
+
+/usr/include/X11/Xcms.h:
+
+/usr/include/X11/Xutil.h:
+
+/usr/include/X11/keysym.h:
+
+/usr/include/X11/keysymdef.h:
+
+/usr/include/X11/Xresource.h:
+
+/usr/include/X11/Xatom.h:
+
+/usr/include/X11/cursorfont.h:
+
+/home/gcorte2s/include/fox-1.6/fxdefs.h:
+
+/home/gcorte2s/include/fox-1.6/fx.h:
+
+/home/gcorte2s/include/fox-1.6/fxver.h:
+
+/home/gcorte2s/include/fox-1.6/fxdefs.h:
+
+/home/gcorte2s/include/fox-1.6/fxascii.h:
+
+/home/gcorte2s/include/fox-1.6/fxunicode.h:
+
+/home/gcorte2s/include/fox-1.6/FXHash.h:
+
+/home/gcorte2s/include/fox-1.6/FXException.h:
+
+/home/gcorte2s/include/fox-1.6/FXThread.h:
+
+/home/gcorte2s/include/fox-1.6/FXStream.h:
+
+/home/gcorte2s/include/fox-1.6/FXIO.h:
+
+/home/gcorte2s/include/fox-1.6/FXFile.h:
+
+/home/gcorte2s/include/fox-1.6/FXPipe.h:
+
+/home/gcorte2s/include/fox-1.6/FXSocket.h:
+
+/home/gcorte2s/include/fox-1.6/FXFileStream.h:
+
+/home/gcorte2s/include/fox-1.6/FXMemoryStream.h:
+
+/home/gcorte2s/include/fox-1.6/FXString.h:
+
+/home/gcorte2s/include/fox-1.6/FXSize.h:
+
+/home/gcorte2s/include/fox-1.6/FXPoint.h:
+
+/home/gcorte2s/include/fox-1.6/FXRectangle.h:
+
+/home/gcorte2s/include/fox-1.6/FXObject.h:
+
+/home/gcorte2s/include/fox-1.6/FXDelegator.h:
+
+/home/gcorte2s/include/fox-1.6/FXDict.h:
+
+/home/gcorte2s/include/fox-1.6/FXPath.h:
+
+/home/gcorte2s/include/fox-1.6/FXSystem.h:
+
+/home/gcorte2s/include/fox-1.6/FXStat.h:
+
+/home/gcorte2s/include/fox-1.6/FXDir.h:
+
+/home/gcorte2s/include/fox-1.6/FXDate.h:
+
+/home/gcorte2s/include/fox-1.6/FXURL.h:
+
+/home/gcorte2s/include/fox-1.6/FXStringDict.h:
+
+/home/gcorte2s/include/fox-1.6/FXSettings.h:
+
+/home/gcorte2s/include/fox-1.6/FXRegistry.h:
+
+/home/gcorte2s/include/fox-1.6/FXObjectList.h:
+
+/home/gcorte2s/include/fox-1.6/FXAccelTable.h:
+
+/home/gcorte2s/include/fox-1.6/FXRecentFiles.h:
+
+/home/gcorte2s/include/fox-1.6/FXApp.h:
+
+/home/gcorte2s/include/fox-1.6/FXId.h:
+
+/home/gcorte2s/include/fox-1.6/FXVisual.h:
+
+/home/gcorte2s/include/fox-1.6/FXFont.h:
+
+/home/gcorte2s/include/fox-1.6/FXCursor.h:
+
+/home/gcorte2s/include/fox-1.6/FXGUISignal.h:
+
+/home/gcorte2s/include/fox-1.6/FXCURCursor.h:
+
+/home/gcorte2s/include/fox-1.6/FXGIFCursor.h:
+
+/home/gcorte2s/include/fox-1.6/FXDrawable.h:
+
+/home/gcorte2s/include/fox-1.6/FXBitmap.h:
+
+/home/gcorte2s/include/fox-1.6/FXImage.h:
+
+/home/gcorte2s/include/fox-1.6/FXIcon.h:
+
+/home/gcorte2s/include/fox-1.6/FXGIFImage.h:
+
+/home/gcorte2s/include/fox-1.6/FXIFFImage.h:
+
+/home/gcorte2s/include/fox-1.6/FXBMPImage.h:
+
+/home/gcorte2s/include/fox-1.6/FXICOImage.h:
+
+/home/gcorte2s/include/fox-1.6/FXXBMImage.h:
+
+/home/gcorte2s/include/fox-1.6/FXXPMImage.h:
+
+/home/gcorte2s/include/fox-1.6/FXPCXImage.h:
+
+/home/gcorte2s/include/fox-1.6/FXTGAImage.h:
+
+/home/gcorte2s/include/fox-1.6/FXRGBImage.h:
+
+/home/gcorte2s/include/fox-1.6/FXPPMImage.h:
+
+/home/gcorte2s/include/fox-1.6/FXRASImage.h:
+
+/home/gcorte2s/include/fox-1.6/FXGIFIcon.h:
+
+/home/gcorte2s/include/fox-1.6/FXIFFIcon.h:
+
+/home/gcorte2s/include/fox-1.6/FXBMPIcon.h:
+
+/home/gcorte2s/include/fox-1.6/FXICOIcon.h:
+
+/home/gcorte2s/include/fox-1.6/FXXBMIcon.h:
+
+/home/gcorte2s/include/fox-1.6/FXXPMIcon.h:
+
+/home/gcorte2s/include/fox-1.6/FXPCXIcon.h:
+
+/home/gcorte2s/include/fox-1.6/FXTGAIcon.h:
+
+/home/gcorte2s/include/fox-1.6/FXRGBIcon.h:
+
+/home/gcorte2s/include/fox-1.6/FXPPMIcon.h:
+
+/home/gcorte2s/include/fox-1.6/FXRASIcon.h:
+
+/home/gcorte2s/include/fox-1.6/FXRegion.h:
+
+/home/gcorte2s/include/fox-1.6/FXDC.h:
+
+/home/gcorte2s/include/fox-1.6/FXDCWindow.h:
+
+/home/gcorte2s/include/fox-1.6/FXDCPrint.h:
+
+/home/gcorte2s/include/fox-1.6/FXIconSource.h:
+
+/home/gcorte2s/include/fox-1.6/FXIconDict.h:
+
+/home/gcorte2s/include/fox-1.6/FXFileDict.h:
+
+/home/gcorte2s/include/fox-1.6/FXWindow.h:
+
+/home/gcorte2s/include/fox-1.6/FXFrame.h:
+
+/home/gcorte2s/include/fox-1.6/FXSeparator.h:
+
+/home/gcorte2s/include/fox-1.6/FXLabel.h:
+
+/home/gcorte2s/include/fox-1.6/FX7Segment.h:
+
+/home/gcorte2s/include/fox-1.6/FXDial.h:
+
+/home/gcorte2s/include/fox-1.6/FXKnob.h:
+
+/home/gcorte2s/include/fox-1.6/FXColorBar.h:
+
+/home/gcorte2s/include/fox-1.6/FXColorRing.h:
+
+/home/gcorte2s/include/fox-1.6/FXColorWell.h:
+
+/home/gcorte2s/include/fox-1.6/FXColorWheel.h:
+
+/home/gcorte2s/include/fox-1.6/FXTextField.h:
+
+/home/gcorte2s/include/fox-1.6/FXButton.h:
+
+/home/gcorte2s/include/fox-1.6/FXPicker.h:
+
+/home/gcorte2s/include/fox-1.6/FXToggleButton.h:
+
+/home/gcorte2s/include/fox-1.6/FXTriStateButton.h:
+
+/home/gcorte2s/include/fox-1.6/FXCheckButton.h:
+
+/home/gcorte2s/include/fox-1.6/FXRadioButton.h:
+
+/home/gcorte2s/include/fox-1.6/FXArrowButton.h:
+
+/home/gcorte2s/include/fox-1.6/FXMenuButton.h:
+
+/home/gcorte2s/include/fox-1.6/FXComposite.h:
+
+/home/gcorte2s/include/fox-1.6/FXPacker.h:
+
+/home/gcorte2s/include/fox-1.6/FXHorizontalFrame.h:
+
+/home/gcorte2s/include/fox-1.6/FXVerticalFrame.h:
+
+/home/gcorte2s/include/fox-1.6/FXSpring.h:
+
+/home/gcorte2s/include/fox-1.6/FXMatrix.h:
+
+/home/gcorte2s/include/fox-1.6/FXSpinner.h:
+
+/home/gcorte2s/include/fox-1.6/FXRealSpinner.h:
+
+/home/gcorte2s/include/fox-1.6/FXRootWindow.h:
+
+/home/gcorte2s/include/fox-1.6/FXCanvas.h:
+
+/home/gcorte2s/include/fox-1.6/FXGroupBox.h:
+
+/home/gcorte2s/include/fox-1.6/FXShell.h:
+
+/home/gcorte2s/include/fox-1.6/FXToolTip.h:
+
+/home/gcorte2s/include/fox-1.6/FXPopup.h:
+
+/home/gcorte2s/include/fox-1.6/FXTopWindow.h:
+
+/home/gcorte2s/include/fox-1.6/FXDialogBox.h:
+
+/home/gcorte2s/include/fox-1.6/FXMainWindow.h:
+
+/home/gcorte2s/include/fox-1.6/FXMenuPane.h:
+
+/home/gcorte2s/include/fox-1.6/FXScrollPane.h:
+
+/home/gcorte2s/include/fox-1.6/FXMenuCaption.h:
+
+/home/gcorte2s/include/fox-1.6/FXMenuSeparator.h:
+
+/home/gcorte2s/include/fox-1.6/FXMenuTitle.h:
+
+/home/gcorte2s/include/fox-1.6/FXMenuCascade.h:
+
+/home/gcorte2s/include/fox-1.6/FXMenuCommand.h:
+
+/home/gcorte2s/include/fox-1.6/FXMenuCheck.h:
+
+/home/gcorte2s/include/fox-1.6/FXMenuRadio.h:
+
+/home/gcorte2s/include/fox-1.6/FXMenuBar.h:
+
+/home/gcorte2s/include/fox-1.6/FXToolBar.h:
+
+/home/gcorte2s/include/fox-1.6/FXDockBar.h:
+
+/home/gcorte2s/include/fox-1.6/FXOptionMenu.h:
+
+/home/gcorte2s/include/fox-1.6/FXSwitcher.h:
+
+/home/gcorte2s/include/fox-1.6/FXTabBar.h:
+
+/home/gcorte2s/include/fox-1.6/FXTabBook.h:
+
+/home/gcorte2s/include/fox-1.6/FXTabItem.h:
+
+/home/gcorte2s/include/fox-1.6/FXScrollBar.h:
+
+/home/gcorte2s/include/fox-1.6/FXScrollArea.h:
+
+/home/gcorte2s/include/fox-1.6/FXScrollWindow.h:
+
+/home/gcorte2s/include/fox-1.6/FXList.h:
+
+/home/gcorte2s/include/fox-1.6/FXComboBox.h:
+
+/home/gcorte2s/include/fox-1.6/FXListBox.h:
+
+/home/gcorte2s/include/fox-1.6/FXTreeList.h:
+
+/home/gcorte2s/include/fox-1.6/FXTreeListBox.h:
+
+/home/gcorte2s/include/fox-1.6/FXFoldingList.h:
+
+/home/gcorte2s/include/fox-1.6/FXBitmapView.h:
+
+/home/gcorte2s/include/fox-1.6/FXBitmapFrame.h:
+
+/home/gcorte2s/include/fox-1.6/FXImageView.h:
+
+/home/gcorte2s/include/fox-1.6/FXImageFrame.h:
+
+/home/gcorte2s/include/fox-1.6/FXTable.h:
+
+/home/gcorte2s/include/fox-1.6/FXDragCorner.h:
+
+/home/gcorte2s/include/fox-1.6/FXStatusBar.h:
+
+/home/gcorte2s/include/fox-1.6/FXStatusLine.h:
+
+/home/gcorte2s/include/fox-1.6/FXChoiceBox.h:
+
+/home/gcorte2s/include/fox-1.6/FXMessageBox.h:
+
+/home/gcorte2s/include/fox-1.6/FXDirList.h:
+
+/home/gcorte2s/include/fox-1.6/FXSlider.h:
+
+/home/gcorte2s/include/fox-1.6/FXRealSlider.h:
+
+/home/gcorte2s/include/fox-1.6/FXSplitter.h:
+
+/home/gcorte2s/include/fox-1.6/FX4Splitter.h:
+
+/home/gcorte2s/include/fox-1.6/FXHeader.h:
+
+/home/gcorte2s/include/fox-1.6/FXShutter.h:
+
+/home/gcorte2s/include/fox-1.6/FXIconList.h:
+
+/home/gcorte2s/include/fox-1.6/FXFileList.h:
+
+/home/gcorte2s/include/fox-1.6/FXDirBox.h:
+
+/home/gcorte2s/include/fox-1.6/FXDriveBox.h:
+
+/home/gcorte2s/include/fox-1.6/FXDirSelector.h:
+
+/home/gcorte2s/include/fox-1.6/FXDirDialog.h:
+
+/home/gcorte2s/include/fox-1.6/FXFileSelector.h:
+
+/home/gcorte2s/include/fox-1.6/FXFileDialog.h:
+
+/home/gcorte2s/include/fox-1.6/FXColorSelector.h:
+
+/home/gcorte2s/include/fox-1.6/FXColorDialog.h:
+
+/home/gcorte2s/include/fox-1.6/FXFontSelector.h:
+
+/home/gcorte2s/include/fox-1.6/FXFontDialog.h:
+
+/home/gcorte2s/include/fox-1.6/FXUndoList.h:
+
+/home/gcorte2s/include/fox-1.6/FXRex.h:
+
+/home/gcorte2s/include/fox-1.6/FXText.h:
+
+/home/gcorte2s/include/fox-1.6/FXDataTarget.h:
+
+/home/gcorte2s/include/fox-1.6/FXProgressBar.h:
+
+/home/gcorte2s/include/fox-1.6/FXReplaceDialog.h:
+
+/home/gcorte2s/include/fox-1.6/FXRuler.h:
+
+/home/gcorte2s/include/fox-1.6/FXRulerView.h:
+
+/home/gcorte2s/include/fox-1.6/FXSearchDialog.h:
+
+/home/gcorte2s/include/fox-1.6/FXInputDialog.h:
+
+/home/gcorte2s/include/fox-1.6/FXProgressDialog.h:
+
+/home/gcorte2s/include/fox-1.6/FXWizard.h:
+
+/home/gcorte2s/include/fox-1.6/FXMDIButton.h:
+
+/home/gcorte2s/include/fox-1.6/FXMDIClient.h:
+
+/home/gcorte2s/include/fox-1.6/FXMDIChild.h:
+
+/home/gcorte2s/include/fox-1.6/FXDocument.h:
+
+/home/gcorte2s/include/fox-1.6/FXDockSite.h:
+
+/home/gcorte2s/include/fox-1.6/FXDockHandler.h:
+
+/home/gcorte2s/include/fox-1.6/FXDockTitle.h:
+
+/home/gcorte2s/include/fox-1.6/FXToolBarGrip.h:
+
+/home/gcorte2s/include/fox-1.6/FXToolBarShell.h:
+
+/home/gcorte2s/include/fox-1.6/FXToolBarTab.h:
+
+/home/gcorte2s/include/fox-1.6/FXPrintDialog.h:
+
+/home/gcorte2s/include/fox-1.6/FXDebugTarget.h:
+
+/home/gcorte2s/include/fox-1.6/FXSplashWindow.h:
+
+FXSevenSegment.h:
+
+FXLCDLabel.h:
+
+FXBaseObject.h:
+
+/home/gcorte2s/include/fox-1.6/FXHash.h:
